@@ -3,13 +3,13 @@ require "json"
 package = JSON.parse(File.read(File.join(__dir__, "package.json")))
 
 Pod::Spec.new do |s|
-  s.name = "react-native-month-year-picker-gregorian"
+  s.name = "react-native-month-year-picker"
   s.version = package["version"]
   s.summary = package["description"]
   s.description = <<-DESC
                   React-native-month-year-picker-gregorian
                    DESC
-  s.homepage = "ttps://github.com/sfukuyoshi/react-native-month-year-gregorian"
+  s.homepage = "https://github.com/sfukuyoshi/react-native-month-year-gregorian"
   # brief license entry:
   s.license = "MIT"
   # optional - use expanded license entry instead:
