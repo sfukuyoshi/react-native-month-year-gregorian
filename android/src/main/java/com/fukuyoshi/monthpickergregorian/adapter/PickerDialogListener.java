@@ -10,9 +10,9 @@ import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.bridge.WritableNativeMap;
 
-import static com.fukuyoshi.monthpickergregorian.RNActions.ACTION_DATE_SET;
-import static com.fukuyoshi.monthpickergregorian.RNActions.ACTION_DISMISSED;
-import static com.fukuyoshi.monthpickergregorian.RNActions.ACTION_NEUTRAL;
+import static com.fukuyoshi.monthpickergregorian.adapter.RNActions.ACTION_DATE_SET;
+import static com.fukuyoshi.monthpickergregorian.adapter.RNActions.ACTION_DISMISSED;
+import static com.fukuyoshi.monthpickergregorian.adapter.RNActions.ACTION_NEUTRAL;
 
 class PickerDialogListener implements OnDateSetListener, OnDismissListener {
 
