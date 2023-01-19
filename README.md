@@ -10,11 +10,13 @@ React Native month picker component for iOS and Android.
 
 ## Getting started
 
+Code based from react-native-month-year. This library will force to use the gregorian calendar
+
 `$ npm install react-native-month-year-picker-gregorian --save`
 
 or
 
-`$ yarn add react-native-month-year-picker`
+`$ yarn add react-native-month-year-picker-gregorian`
 
 ### For react-native@0.60.0 or above
 
@@ -31,7 +33,7 @@ npx pod-install
 ```javascript
 import React, { useState, useCallback } from 'react';
 import { View, SafeAreaView, Text } from 'react-native';
-import MonthPicker from 'react-native-month-year-picker';
+import MonthPicker from 'react-native-month-year-picker-gregorian';
 
 const App = () => {
   const [date, setDate] = useState(new Date());
@@ -88,7 +90,7 @@ setDate = (event, date) => {};
 ```
 Events returned by onChange function:
 ```js
-import { ACTION_DATE_SET, ACTION_DISMISSED, ACTION_NEUTRAL } from 'react-native-month-year-picker';
+import { ACTION_DATE_SET, ACTION_DISMISSED, ACTION_NEUTRAL } from 'react-native-month-year-picker-gregorian';
 ...
 onValueChange = (event, newDate) => {
   switch(event) {
