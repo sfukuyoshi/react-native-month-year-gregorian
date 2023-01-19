@@ -5,7 +5,7 @@ module.exports = {
       'module-resolver',
       {
         alias: {
-          'react-native-month-year-picker': '../src',
+          'react-native-month-year-picker-gregorian': '../src',
         },
       },
     ],
