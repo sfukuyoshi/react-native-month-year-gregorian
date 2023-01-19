@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:">
+      location = "group:/Users/gparis/Documents/github/react-native-month-picker/ios/RNMonthPicker.xcodeproj">
    </FileRef>
 </Workspace>
